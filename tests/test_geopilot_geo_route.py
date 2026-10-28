@@ -41,9 +41,9 @@ def test_profile_calculates_ascent_and_descent() -> None:
         [101.5, 101.333333, 103.333333, 103.5]
     )
     assert profile["positive_ascent_m"].sum() == pytest.approx(2.166667)
-    assert profile["negative_descent_m"].sum() == pytest.approx(0.166667)
+    assert profile["negative_descent_m"].sum() == pytest.approx(1 / 6)
     assert profile["accumulated_ascent_m"].iloc[-1] == pytest.approx(2.166667)
-    assert profile["accumulated_descent_m"].iloc[-1] == pytest.approx(0.166667)
+    assert profile["accumulated_descent_m"].iloc[-1] == pytest.approx(1 / 6)
 
 
 def test_first_segment_has_zero_grade() -> None:
