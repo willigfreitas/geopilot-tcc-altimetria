@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Se você utilizar este código ou seus resultados, cite este repositório."
+title: "GeoPilot TCC: comparação altimétrica QGIS e Python"
+type: software
+authors:
+  - family-names: "Freitas"
+    given-names: "William Gomes de"
+repository-code: "https://github.com/willigfreitas/geopilot-tcc-altimetria"
+version: "0.1.0"
+date-released: "2026-10-27"

@@ -1,0 +1,27 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.idea/
+.vscode/
+.env
+.env.*
+tmp/
+logs/
+
+# MDEs e produtos geoespaciais locais potencialmente grandes
+*.tif
+*.tiff
+*.vrt
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.qmd
+
+# Resultados locais; exemplos pequenos poderão ser liberados explicitamente
+saidas/
+output/
