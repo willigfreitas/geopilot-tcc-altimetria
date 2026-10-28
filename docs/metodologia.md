@@ -12,7 +12,7 @@ Os dois fluxos utilizam as mesmas geometrias de rota, o mesmo MDE SRTM, o mesmo 
 4. Criar pontos a cada 30 m, iniciando na distância zero.
 5. Incluir o ponto terminal exato quando o comprimento não for múltiplo de 30 m.
 6. Amostrar a banda 1 do MDE em cada ponto.
-7. Aplicar média móvel centrada de três amostras, com `min_periods=1`.
+7. Aplicar média móvel centrada com janela de três amostras: nos pontos internos, utilizar a cota anterior, a atual e a seguinte; nas extremidades da rota, calcular a média dos dois valores disponíveis (`min_periods=1`).
 8. Calcular a distância e a variação de cota de cada segmento.
 9. Calcular a declividade percentual: `100 × variação de cota / distância do segmento`.
 10. Somar separadamente as variações positivas e negativas.
