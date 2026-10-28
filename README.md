@@ -16,7 +16,7 @@ O repositório trata exclusivamente de:
 - amostragem de pontos ao longo de rotas;
 - inclusão do ponto terminal exato;
 - extração de cotas de um Modelo Digital de Elevação;
-- média móvel centrada com janela de três amostras - nas extremidades da rota, são utilizadas as duas amostras disponíveis;
+- média móvel centrada com janela de três amostras; nos pontos internos, são utilizadas três cotas e, nas extremidades da rota, os dois valores disponíveis;
 - declividade por segmento;
 - subida e descida acumuladas;
 - comparação dos resultados do QGIS e do Python.
