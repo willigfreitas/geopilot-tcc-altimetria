@@ -10,6 +10,12 @@ O estudo compara indicadores altimétricos obtidos por dois fluxos aplicados às
 
 O objetivo é verificar a equivalência entre os procedimentos, e não determinar a acurácia absoluta do MDE. Essa segunda avaliação exigiria dados independentes de campo.
 
+## Área de estudo e rotas analisadas
+
+![Mapa temático das rotas urbanas analisadas em São José dos Campos](docs/imagens/Mapa_Tematico_Rotas_TCC_20261024.png)
+
+*Figura 1 — Rotas Centro–Jardim Aquarius e Centro–Altos de Santana, em São José dos Campos (SP). Elaboração: William Gomes de Freitas (2026).*
+
 ## Escopo
 
 O repositório trata exclusivamente de:
