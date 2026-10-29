@@ -1,0 +1,31 @@
+{
+  "route_file": "/content/geopilot-tcc-altimetria/rota_centro_aquarius_tcc_20261023.gpkg",
+  "dem_file": "/content/geopilot-tcc-altimetria/mde_sjc_recortado_31983_ii.tif",
+  "calculation_crs": "EPSG:31983",
+  "sample_spacing_m": 30.0,
+  "sample_count": 136,
+  "distance_km": 4.0314433756279415,
+  "route_length_m": 4031.443375627942,
+  "sampled_distance_m": 4031.443375627942,
+  "terminal_remainder_m": 0.0,
+  "initial_elevation_m": 605.5,
+  "final_elevation_m": 604.0,
+  "net_elevation_change_m": -1.5,
+  "accumulated_ascent_m": 98.66666666666663,
+  "accumulated_descent_m": 100.16666666666663,
+  "mean_absolute_grade_percent": 4.922811556044838,
+  "maximum_uphill_grade_percent": 18.88888888888914,
+  "maximum_downhill_grade_percent": -21.11111111111124,
+  "dem_metadata": {
+    "crs": "EPSG:31983",
+    "resolution_x": 30.0,
+    "resolution_y": 30.0,
+    "nodata": -9999.0,
+    "bounds": [
+      386460.0,
+      7422270.0,
+      426240.0,
+      7476540.0
+    ]
+  }
+}
