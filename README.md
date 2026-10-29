@@ -1,4 +1,5 @@
 # GeoPilot TCC — comparação altimétrica QGIS × Python
+[![Abrir no Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/willigfreitas/geopilot-tcc-altimetria/blob/main/notebooks/geopilot_altimetria_colab.ipynb)
 
 Repositório acadêmico do Trabalho de Conclusão de Curso de **William Gomes de Freitas**, desenvolvido na FATEC Jacareí.
 
