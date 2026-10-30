@@ -1,0 +1,31 @@
+{
+  "route_file": "/content/geopilot-tcc-altimetria/rota_centro_altos_santana_tcc_20261021.gpkg",
+  "dem_file": "/content/geopilot-tcc-altimetria/mde_sjc_recortado_31983_ii.tif",
+  "calculation_crs": "EPSG:31983",
+  "sample_spacing_m": 30.0,
+  "sample_count": 190,
+  "distance_km": 5.647022534627997,
+  "route_length_m": 5647.022534627997,
+  "sampled_distance_m": 5647.022534627997,
+  "terminal_remainder_m": 0.0,
+  "initial_elevation_m": 606.5,
+  "final_elevation_m": 580.5,
+  "net_elevation_change_m": -26.0,
+  "accumulated_ascent_m": 78.99999999999989,
+  "accumulated_descent_m": 104.99999999999989,
+  "mean_absolute_grade_percent": 3.3124742296559666,
+  "maximum_uphill_grade_percent": 14.44444444444457,
+  "maximum_downhill_grade_percent": -17.777777777777526,
+  "dem_metadata": {
+    "crs": "EPSG:31983",
+    "resolution_x": 30.0,
+    "resolution_y": 30.0,
+    "nodata": -9999.0,
+    "bounds": [
+      386460.0,
+      7422270.0,
+      426240.0,
+      7476540.0
+    ]
+  }
+}

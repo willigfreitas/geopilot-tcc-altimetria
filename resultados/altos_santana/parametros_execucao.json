@@ -1,0 +1,14 @@
+{
+  "routes": "/content/geopilot-tcc-altimetria/rota_centro_altos_santana_tcc_20261021.gpkg",
+  "dem": "/content/geopilot-tcc-altimetria/mde_sjc_recortado_31983_ii.tif",
+  "output": "/content/geopilot_resultado",
+  "crs": "EPSG:31983",
+  "sample_spacing": 30.0,
+  "executed_at": "2026-10-30T14:40:07+00:00",
+  "status": "processamento_concluido",
+  "outputs": {
+    "profile_csv": "/content/geopilot_resultado/perfil_altimetrico.csv",
+    "profile_gpkg": "/content/geopilot_resultado/pontos_perfil.gpkg",
+    "summary_json": "/content/geopilot_resultado/resumo_rota.json"
+  }
+}
